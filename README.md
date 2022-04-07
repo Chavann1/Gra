@@ -1,1 +1,1 @@
-#W 1983 William Afton i Henry Charlie założyli Fredbear's Family Diner
+#W 1983 William Afton i Henry założyli Fredbear's Family Diner

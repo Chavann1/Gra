@@ -143,6 +143,7 @@ void menu() {
 
 int main()
 {
+    retry:
     menu();
     cout << "HP =" << hp;
     cout << "lvl =" << lvl;
@@ -151,6 +152,7 @@ int main()
     while (true) {
         draw_level();
         ruch_gracza(current, prev);
+        if (hp <= 0) goto retry;
     }
     //delete[] current;
     return 0;

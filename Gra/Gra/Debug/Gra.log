@@ -1,0 +1,6 @@
+﻿  Gra.cpp
+D:\PROGRAMY\visualstudio\Gra\Gra\funkcje.h(119,47): warning C4244: "-=": konwersja z "double" do "int", możliwa utrata danych
+D:\PROGRAMY\visualstudio\Gra\Gra\funkcje.h(141,93): warning C4244: "+=": konwersja z "double" do "int", możliwa utrata danych
+D:\PROGRAMY\visualstudio\Gra\Gra\funkcje.h(142,48): warning C4244: "+=": konwersja z "double" do "int", możliwa utrata danych
+D:\PROGRAMY\visualstudio\Gra\Gra\funkcje.h(191): warning C4715: "check_field”: niewszystkie ścieżki kodu zwracają wartość
+  Gra.vcxproj -> D:\PROGRAMY\visualstudio\Gra\Debug\Gra.exe

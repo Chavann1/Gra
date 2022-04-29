@@ -1,0 +1,43 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <conio.h>
+#include <windows.h>
+#include <stdlib.h>
+using namespace std;
+
+// KLASY
+
+class Przeciwnik {
+public:
+
+    string type;
+    int health;
+    int strength;
+
+    Przeciwnik(string type="-11", int h = 10, int s = 1) {
+        health = h;
+        strength = s;
+    }
+};
+
+// GLOBALNE ZMIENNE =============================================================================
+
+int hp = 10;
+int lvl = 0;
+int tablica[20][20];
+string current_room = "room_11.txt";
+string current_save;
+string npc ="";
+int current[2] = { 10, 10 };
+
+// FUNKCJE =============================================================================
+
+void load_room(string room, int x, int y);
+void battle(string enemy, int x, int y);
+int check_field(int x, int y);
+void load_save(string save);
+void save_save();
+void draw_level();
+void ruch_gracza(int* cur, int& p);
+void title();

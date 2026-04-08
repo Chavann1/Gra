@@ -1,7 +1,7 @@
 # Konsolowa gra RPG w C++
 
 Prosta gra RPG działająca w konsoli, napisana w C++, zawierająca system eksploracji oparty na siatce, mechanikę walki oraz zapis/odczyt stanu gry do plików.
-
+Uwaga: ten projekt powstał w trakcie nauki programowania i nie odzwierciedla mojego obecnego poziomu doświadczenia.
 ---
 
 ## Funkcje
